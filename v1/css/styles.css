@@ -1,13 +1,15 @@
 html *
 {
    //font-size: 1em !important;
+
    //color: white !important;
-   color: black;
+   //color: black;
    font-family: sans-serif !important;
 }
 
 body {
-    //background-color: #1a182a;
+    background-color: #1a182a;
+    //background: seagreen;
     margin: 0;
     padding: 0;
 }
@@ -26,9 +28,9 @@ li {
 }
 
 .menu{
-    //background-image: url(images/menu.png);
-    background: lime;
-    height:41px;
+    background-image: url(../images/menu.png);
+    //background: lime;
+    height:40px;
 }
 
 .topmenu {
@@ -36,7 +38,7 @@ li {
     margin: 10px 0 0;
     position: right;
     padding-right: 10px;
-    background: gray;
+    //background: gray;
 }
 
 .topmenu li {
@@ -59,45 +61,38 @@ li {
     
 }
 
-.header {
-    //clear: both;
-    height: 262px;
+////////////////// header-promo ///////////////////////
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.header-promo {
+    clear:both;
+    background-image: url("../images/header.jpg");
+    //background: tomato;
     width: 960px;
-    background: cornsilk;
-    //margin: auto;
-    overflow: hidden;
+    height: 350px;
+    position: relative;
 }
+ 
 
-.header .left {
-    float: left;
-    //background-image: url("images/left.jpg");
-    background: orchid;
-    
-    height: 263px;
-    width: 10%;
-    //position: relative;
-    
-}
-
-.header .center {
-    float: left;
-    //background-image: url("images/center.png");
-    background: cyan;
-    height: 262px;
-    width: 80%;
-    //position: relative;
-    
-}
-
-.header .right {
+.header-promo .promo {
+   
+    color: #eee;
     float: right;
-    //background-image: url("images/right.jpg");
-    background: PaleGreen;
-    height: 262px;
-    width: 10%;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 35px;
+    text-align: right;
+    text-transform: uppercase;
+   
 }
 
 
+///////////////// after header ////////////////////
 .after_header {
     //background-image: url("images/skoro2.jpg");
     background: darkcyan;
@@ -110,6 +105,7 @@ li {
 
 
 .columnContainer {
+    color: #eee;
     width:960px;
     margin:0px auto;
     overflow: hidden;
@@ -180,122 +176,67 @@ li {
     height: 20px;
 } 
 
-.upload-btn {
-    left: 306px;
-    position: relative;
-    top: 20px;
+.saveandgo {
+    //background: white;
+    height: 80px;
+    width: 960px;
+    padding-top: 15px;
+}
+
+header-promo .upload-btn {
+    
+    float: left;
+//    padding-left: 100px;
+    //left: 306px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
+}
+
+.saveandgo .upload-btn {
+    
+    float: left;
+    padding-left: 100px;
 }
 
 .gotocinema-btn {
-    left: 442px;
-    position: relative;
-    top: 20px;
-}
-
-.footer {
-    background-image: url("images/footer.jpg");
-    height: 141px;
-}
-
-.saveandgo {
-    height: 102px;
-}
-
-.socials li {
-    float: left;
-    list-style: none outside none;
-    padding: 3px;
-}
-
-.socials {
-    margin: auto;
-    padding-top: 32px;
-    width: 200px;
-}
-.email {
-    background-image: url("images/e-mail.jpg");
-    clear: both;
-    height: 36px;
-    margin: auto;
-    position: relative;
-    width: 210px;
-}
-
-
-
-
-
-/*
-
-.right {
     float: right;
-}
-
-.polls {
-    float: right;
-    position: relative;
-    right: 52px;
-    top: 10px;
-    width: 230px;
-}
-*/
-
-/*
-.polls-results li {
-    height: 159px;
-    list-style: none outside none;
+    padding-right: 100px;
+    //left: 442px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
 }
 
 
-.polls-results {
-    margin-left: -59px;
-    margin-top: 0;
-}
-*/
-
-h2 {
-    color: #fff;
-    font-size: 15px;
-}
-
-p {
-    color: #fff;
-    font-size: 12px;
-}
-
-
-
-.row {
+.wtm {
+    color: #eee;
+    text-align: left;
     margin: auto;
-    padding-left: 145px;
-    width: 1250px;
+    //width: 800px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 100%;
+
 }
 
-
-.howitworks {
-    margin: auto;
-    padding-bottom: 15px;
-    width: 800px;
-}
-
-.wtm span, .howitworks span {
+.wtm p, .howitworks p {
     color: #eee;
     font-family: sans-serif;
-    font-size: 16px;
+    //font-size: 120%;
     line-height: 23px;
 }
 
-.wtm{
-    text-align: left;
+.howitworks {
+    color: #eee;
     margin: auto;
-    width: 800px;
-    color: #fff;
-    margin-bottom: 40px;
-    margin-top: 40px;
-
+    padding-bottom: 15px;
+    //width: 800px;
+    font-size: 100%;
 }
-
-
 
 .howitworks h1, .wtm h1 {
     color: #eee;
@@ -303,26 +244,71 @@ p {
     text-align: center;
 }
 
-.top {
-    background-image: url("images/top.jpg");
-    width: 961px;
-    height: 348px;
+.howitworks h2, .wtm h2 {
+    color: #eee;
+    text-align: center;
 }
+
 .topupload {
+    color: #eee;
     left: 100px;
     position: relative;
     top: 195px;
 }
-.red{
-    color: red;
+
+.red-link {
+    color: Crimson;
 }
 
-.top span {
-    color: #eee;
-    float: right;
-    font-size: 30px;
-    line-height: 46px;
-    margin: 35px;
-    text-align: right;
-    text-transform: uppercase;
+.picture-leading  {
+    width: 960px;
+    margin: auto;
 }
+
+.saveandgo {
+    width: 960px;
+}
+
+.footer {
+    color: #eee;
+    background-image: url("../images/footer.jpg");
+    height: 40px;
+}
+
+.copyright {
+    float:left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    //background: white;
+
+}
+
+.socials li {
+    float: left;
+    list-style: none outside none;
+    padding: 5px;
+}
+
+.socials img {
+    width: 25px;
+    position: center;
+}
+
+.socials {
+    background: yellow;
+    margin: auto;
+    margin-left: 320px;
+    margin-right: auto;
+    width: 400px;
+}
+
+
+.email {
+    //background: gray;
+    float:right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
