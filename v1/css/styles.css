@@ -48,7 +48,12 @@ li {
 }
 
 .topmenu li a {
-    color: #fff;
+    color: #eee;
+    text-decoration: none;
+}
+
+.topmenu .active {
+    color: gold;
     text-decoration: none;
 }
 
