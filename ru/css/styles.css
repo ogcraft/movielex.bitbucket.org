@@ -98,12 +98,13 @@ li {
 
 
 ///////////////// after header ////////////////////
+
 .after_header {
-    //background-image: url("images/skoro2.jpg");
+    //background-image: url("../images/skoro2.jpg");
     //background: darkcyan;
     height: 21px;
     //margin: auto;
-    position: relative;
+    //position: relative;
     width: 960px;
 
 }
@@ -118,15 +119,15 @@ li {
 }
 
 .column {
-    
+
     float: left;
-    width: 40%;
-    padding: 5%;
+    width: 45%;
+    padding: 1%;
     
 }
 
 .column#left {
-    //background-image: url("images/skoro2.jpg");
+    //background-image: url("../images/skoro2.jpg");
     //background: yellow;
 }
 
@@ -135,7 +136,8 @@ li {
 }
 
 .column > h1 {
-    background: maroon;
+    background-image: url("../images/menu.png");
+    //background: maroon;
     text-align: center;
 }
 
