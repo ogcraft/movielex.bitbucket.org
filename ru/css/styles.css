@@ -118,6 +118,7 @@ li {
 }
 
 .column {
+    
     float: left;
     width: 40%;
     padding: 5%;
@@ -125,6 +126,7 @@ li {
 }
 
 .column#left {
+    //background-image: url("images/skoro2.jpg");
     //background: yellow;
 }
 
@@ -133,6 +135,7 @@ li {
 }
 
 .column > h1 {
+    background: maroon;
     text-align: center;
 }
 
@@ -165,14 +168,15 @@ li {
 }
 
 .translation {
+    text-align: right;
     padding: 10px;
 }
 
 .translation img {
     width: 20px;
     height: 20px;
-    float: left; 
-    margin: 0px 30px 5px 0px;
+    float: right; 
+    margin: 0px 30px 5px 20px;
 }
 
 .movie-entry .iwant {

@@ -125,7 +125,7 @@ li {
 }
 
 .column#left {
-    background: yellow;
+    background: IndianRed;
 }
 
 .column#right {
@@ -144,7 +144,7 @@ li {
 
 .movie-entry {
     margin: 0px 20px 20px 0px;
-    background: lavender;
+    background: MediumAquaMarine;
 
 }
 
