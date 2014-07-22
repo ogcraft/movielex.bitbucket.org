@@ -47,13 +47,13 @@ li {
     list-style: none outside none;
 }
 
-.topmenu li a {
-    color: #eee;
+.topmenu li a#active {
+    color: orange;
     text-decoration: none;
 }
 
-.topmenu .active {
-    color: gold;
+.topmenu li a {
+    color: #eee;
     text-decoration: none;
 }
 
