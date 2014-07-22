@@ -8,7 +8,7 @@ html *
 }
 
 body {
-    background-color: #1a182a;
+    background-color: #111226;
     //background: seagreen;
     margin: 0;
     padding: 0;
@@ -30,12 +30,12 @@ li {
 .menu{
     background-image: url(../images/menu.png);
     //background: lime;
-    height:40px;
+    height:70px;
 }
 
 .topmenu {
-    float: right;
-    margin: 10px 0 0;
+    float: left;
+    margin: 25px 150px 0px;
     position: right;
     padding-right: 10px;
     //background: gray;
@@ -43,7 +43,7 @@ li {
 
 .topmenu li {
     float: left;
-    padding-right: 69px;
+    padding-right: 60px;
     list-style: none outside none;
 }
 
@@ -57,10 +57,12 @@ li {
     text-decoration: none;
 }
 
+
 .logo {
     float: left;
-    height: 41px;
+    height: 40px;
     width: 72px;
+	padding-top: 5px;
     padding-left: 10px;
     position: left;
     
@@ -76,13 +78,13 @@ li {
 
 .header-promo {
     clear:both;
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/header.png");
     //background: tomato;
     width: 960px;
-    height: 350px;
+    height: 400px;
     position: relative;
 }
- 
+
 
 .header-promo .promo {
    
@@ -96,11 +98,62 @@ li {
    
 }
 
+.header-promo .upload-btn {
+    
+    float: left;
+    //padding-left: 100px;
+   // left: 306px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
+}
 
+.header-promo-cinema {
+    clear:both;
+    background-image: url("../images/header-cinema.png");
+    //background: tomato;
+    width: 960px;
+    height: 400px;
+    position: relative;
+}
+
+/*
+.header-promo-cinema .promo {
+   
+    color: #eee;
+    float: right;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 35px;
+    text-align: right;
+    text-transform: uppercase;
+   
+}
+*/
+
+.header-promo-help-contacts  {
+    clear:both;
+    background-image: url("../images/header-help.png");
+    //background: tomato;
+    width: 960px;
+    height: 400px;
+    position: relative;
+}
+.header-promo-help-contacts.promo {
+   
+    color: #eee;
+    float: right;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 35px;
+    text-align: right;
+    text-transform: uppercase;
+   
+}
 ///////////////// after header ////////////////////
 
 .after_header {
-    //background-image: url("../images/skoro2.jpg");
     //background: darkcyan;
     height: 21px;
     //margin: auto;
@@ -113,22 +166,22 @@ li {
 .columnContainer {
     color: #eee;
     width:960px;
-    margin:0px auto;
+	margin:auto;
     overflow: hidden;
+   
  
 }
 
 .column {
-
     float: left;
-    width: 45%;
-    padding: 1%;
+    width: 50% ;
+    //padding: 1%;
     
 }
 
 .column#left {
-    //background-image: url("../images/skoro2.jpg");
     //background: yellow;
+	
 }
 
 .column#right {
@@ -139,6 +192,8 @@ li {
     background-image: url("../images/menu.png");
     //background: maroon;
     text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .movie-img > img { 
@@ -150,12 +205,13 @@ li {
 .movie-entry {
     margin: 0px 20px 20px 0px;
     //background: lavender;
+	//padding: 20px;
 
 }
 
 .movie-entry .title {
     font-weight:bold;
-    font-size: 120%;
+    font-size: 110%;
     padding: 5px; 
 }
 
@@ -166,7 +222,13 @@ li {
 }
 
 .movie-entry .desc {
-    margin: 5px 5px 5px 120px;  
+    margin: 5px 5px 5px 120px; 
+	
+}
+
+.desc {
+	font-size: 90%;
+	color: gray;
 }
 
 .translation {
@@ -187,41 +249,6 @@ li {
     height: 20px;
 } 
 
-.saveandgo {
-    //background: white;
-    height: 80px;
-    width: 960px;
-    padding-top: 15px;
-}
-
-header-promo .upload-btn {
-    
-    float: left;
-//    padding-left: 100px;
-    //left: 306px;
-    //position: relative;
-    //top: 20px;
-    //padding-top: 15px;
-    //margin: auto;
-}
-
-.saveandgo .upload-btn {
-    
-    float: left;
-    padding-left: 100px;
-}
-
-.gotocinema-btn {
-    float: right;
-    padding-right: 100px;
-    //left: 442px;
-    //position: relative;
-    //top: 20px;
-    //padding-top: 15px;
-    //margin: auto;
-}
-
-
 .wtm {
     color: #eee;
     text-align: left;
@@ -233,6 +260,16 @@ header-promo .upload-btn {
 
 }
 
+.wtm1 {
+    color: #C0B5A0;
+    text-align: left;
+    margin: auto;
+    //width: 800px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 100%;
+
+}
 .wtm p, .howitworks p {
     color: #eee;
     font-family: sans-serif;
@@ -261,7 +298,7 @@ header-promo .upload-btn {
 
 .topupload {
     color: #eee;
-    left: 100px;
+    left: 50px;
     position: relative;
     top: 195px;
 }
@@ -275,29 +312,75 @@ header-promo .upload-btn {
     margin: auto;
 }
 
-.saveandgo {
+.hr960 {
     width: 960px;
+    margin: auto;
 }
+
+.saveandgo {
+    clear: both;
+    //background: gray;
+    
+    width: 960px;
+    height: 80px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.saveandgo .upload-btn {
+   
+    float: left;
+    padding-left: 50px;
+}
+
+.gotocinema {
+    color:orange;
+    float: right;
+    padding-right: 100px;
+    font-size: 250%;
+}
+/*
+.gotocinema-btn {
+    float: right;
+    padding-right: 100px;
+    //left: 442px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
+}
+*/
 
 .footer {
     color: #eee;
     background-image: url("../images/footer.jpg");
-    height: 40px;
+    height: 70px;
+    width: 960px;
+    margin: auto;
 }
 
 .copyright {
     float:left;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 27px;
     margin-left: 10px;
     //background: white;
 
+}
+
+.socials {
+    //background: yellow;
+    //margin: auto;
+    margin-left: 340px;
+    margin-right: auto;
+    width: 400px;
 }
 
 .socials li {
     float: left;
     list-style: none outside none;
     padding: 5px;
+    margin-top: 15px;
 }
 
 .socials img {
@@ -305,20 +388,13 @@ header-promo .upload-btn {
     position: center;
 }
 
-.socials {
-    //background: yellow;
-    margin: auto;
-    margin-left: 320px;
-    margin-right: auto;
-    width: 400px;
-}
-
 
 .email {
     //background: gray;
     float:right;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 27px;
     margin-right: 10px;
 }
+
 
