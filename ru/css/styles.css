@@ -35,8 +35,9 @@ li {
 
 .topmenu {
     float: left;
-    margin: 25px 150px 0px;
+    margin: 25px 50px 0px;
     position: right;
+    padding-left: 100px;
     padding-right: 10px;
     //background: gray;
 }
