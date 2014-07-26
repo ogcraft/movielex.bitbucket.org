@@ -162,7 +162,6 @@ li {
 
 }
 
-
 .columnContainer {
     color: #eee;
     width:960px;
@@ -248,6 +247,11 @@ li {
     //background: red;
     height: 20px;
 } 
+
+.embed-movie {
+    margin: auto;
+    padding-left: 40px;
+}
 
 .wtm {
     color: #eee;
