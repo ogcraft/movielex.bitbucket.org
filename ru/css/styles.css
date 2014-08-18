@@ -28,7 +28,7 @@ li {
 }
 
 .menu{
-    background-image: url(../images/menu.png);
+    background-image: url(../images/menu.svg);
     //background: lime;
     height:70px;
 }
@@ -79,7 +79,7 @@ li {
 
 .header-promo {
     clear:both;
-    background-image: url("../images/header.png");
+    background-image: url("../images/header.svg");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -102,17 +102,11 @@ li {
 .header-promo .upload-btn {
     
     float: left;
-    //padding-left: 100px;
-   // left: 306px;
-    //position: relative;
-    //top: 20px;
-    //padding-top: 15px;
-    //margin: auto;
 }
 
 .header-promo-cinema {
     clear:both;
-    background-image: url("../images/header-cinema.png");
+    background-image: url("../images/header-cinema.svg");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -135,7 +129,7 @@ li {
 
 .header-promo-help-contacts  {
     clear:both;
-    background-image: url("../images/header-help.png");
+    background-image: url("../images/header-help.svg");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -164,9 +158,10 @@ li {
 }
 
 .columnContainer {
+	//background: white;
     color: #eee;
     width:960px;
-	margin:auto;
+	//margin:auto;
     overflow: hidden;
    
  
@@ -189,7 +184,7 @@ li {
 }
 
 .column > h1 {
-    background-image: url("../images/menu.png");
+    background-image: url("../images/menu.svg");
     //background: maroon;
     text-align: center;
     margin-right: 5px;

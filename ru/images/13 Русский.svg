@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="63px" height="18.119px" viewBox="0 0 63 18.119" enable-background="new 0 0 63 18.119" xml:space="preserve">
+<symbol  id="РУ" viewBox="-16.5 -16 33 29.13">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2.6846" y1="-14.4404" x2="2.6846" y2="13.0708">
+		<stop  offset="0" style="stop-color:#FF0000"/>
+		<stop  offset="0.325" style="stop-color:#FF0000"/>
+		<stop  offset="0.3785" style="stop-color:#FF0000"/>
+		<stop  offset="0.3793" style="stop-color:#0000FF"/>
+		<stop  offset="0.6989" style="stop-color:#0000FF"/>
+		<stop  offset="0.699" style="stop-color:#0909FF"/>
+		<stop  offset="0.6993" style="stop-color:#3737FF"/>
+		<stop  offset="0.6997" style="stop-color:#6262FF"/>
+		<stop  offset="0.7001" style="stop-color:#8888FF"/>
+		<stop  offset="0.7005" style="stop-color:#A8A8FF"/>
+		<stop  offset="0.7009" style="stop-color:#C4C4FF"/>
+		<stop  offset="0.7014" style="stop-color:#DADAFF"/>
+		<stop  offset="0.7021" style="stop-color:#EBEBFF"/>
+		<stop  offset="0.7028" style="stop-color:#F6F6FF"/>
+		<stop  offset="0.7039" style="stop-color:#FDFDFF"/>
+		<stop  offset="0.7068" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" stroke="#F2F2F2" stroke-width="0.2372" stroke-miterlimit="10" d="M2.685,13.012
+		c-7.564,0-13.697-6.132-13.697-13.696c0-7.565,6.132-13.696,13.697-13.696c7.565,0,13.697,6.131,13.697,13.696
+		C16.381,6.88,10.25,13.012,2.685,13.012z"/>
+	<polygon display="none" fill="none" points="-16.5,13 16.5,13 16.5,-16 -16.5,-16 	"/>
+</symbol>
+<symbol  id="Русский" viewBox="-25.553 -10.744 63 18.119">
+	
+		<use xlink:href="#РУ"  width="33" height="29.13" x="-16.5" y="-16" transform="matrix(0.622 0 0 0.622 26.1875 -0.792)" overflow="visible"/>
+	<text transform="matrix(0.9986 0 0 -1 -24.8408 -4.5957)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.1744">Русский</text>
+	<polygon display="none" fill="none" points="-25.553,7.051 37.447,7.051 37.447,-9.949 -25.553,-9.949 	"/>
+</symbol>
+<use xlink:href="#Русский"  width="63" height="18.119" x="-25.553" y="-10.744" transform="matrix(1 0 0 -1 25.5527 7.375)" overflow="visible"/>
+</svg>
