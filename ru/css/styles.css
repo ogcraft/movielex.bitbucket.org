@@ -28,7 +28,7 @@ li {
 }
 
 .menu{
-    background-image: url(../images/menu.svg);
+    background-image: url(../images/menu.png);
     //background: lime;
     height:70px;
 }
@@ -184,7 +184,7 @@ li {
 }
 
 .column > h1 {
-    background-image: url("../images/menu.svg");
+    background-image: url("../images/menu.png");
     //background: maroon;
     text-align: center;
     margin-right: 5px;
