@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="155.224px" height="154.854px" viewBox="0 0 155.224 154.854" enable-background="new 0 0 155.224 154.854"
+	 xml:space="preserve">
+<symbol  id="Круг" viewBox="-72.956 -72.956 145.911 145.913">
+	<radialGradient id="SVGID_1_" cx="-4.882812e-04" cy="0" r="72.9558" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#808080"/>
+		<stop  offset="1" style="stop-color:#666666"/>
+	</radialGradient>
+	<path fill="url(#SVGID_1_)" d="M72.955,0c0,40.292-32.662,72.956-72.955,72.956c-40.292,0-72.956-32.664-72.956-72.956
+		c0-40.292,32.664-72.957,72.956-72.957C40.293-72.956,72.955-40.291,72.955,0z"/>
+</symbol>
+<use xlink:href="#Круг"  width="145.911" height="145.913" x="-72.956" y="-72.956" transform="matrix(1 0 0 -1 82.269 81.897)" overflow="visible"/>
+<path fill="#999999" d="M38.667,0l74,73.333L122,120l-47.333-8L0,38C0,38,12.667,10,38.667,0z"/>
+<path fill="#CCCCCC" d="M38.667,0l15.402,15.263C39,20.999,20.815,40.535,15.741,53.601L0,38C0,38,9.313,11.333,38.667,0z"/>
+<path fill="#E6E6E6" d="M112.667,73.333L122,120l-47.333-8C81.269,93.158,100.842,77.903,112.667,73.333z"/>
+<path fill="#4D4D4D" d="M116.795,93.974L122,120l-26.803-4.53C100.277,106.987,110.753,96.667,116.795,93.974z"/>
+</svg>
