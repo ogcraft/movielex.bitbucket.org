@@ -28,7 +28,7 @@ li {
 }
 
 .menu{
-    background-image: url(../images/menu.png);
+    background-image: url("http://movielex.com/ru/images/menu.png");
     //background: lime;
     height:70px;
 }
@@ -79,7 +79,7 @@ li {
 
 .header-promo {
     clear:both;
-    background-image: url("../images/header.svg");
+    background-image: url("http://movielex.com/ru/images/header.png");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -102,11 +102,17 @@ li {
 .header-promo .upload-btn {
     
     float: left;
+    //padding-left: 100px;
+   // left: 306px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
 }
 
 .header-promo-cinema {
     clear:both;
-    background-image: url("../images/header-cinema.svg");
+    background-image: url("http://movielex.com/ru/images/header-cinema.png");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -129,7 +135,7 @@ li {
 
 .header-promo-help-contacts  {
     clear:both;
-    background-image: url("../images/header-help.svg");
+    background-image: url("http://movielex.com/ru/images/header-help.png");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -158,10 +164,9 @@ li {
 }
 
 .columnContainer {
-	//background: white;
     color: #eee;
     width:960px;
-	//margin:auto;
+	margin:auto;
     overflow: hidden;
    
  
@@ -169,7 +174,7 @@ li {
 
 .column {
     float: left;
-    width: 50% ;
+    width: 100% ;
     //padding: 1%;
     
 }
@@ -184,7 +189,7 @@ li {
 }
 
 .column > h1 {
-    background-image: url("../images/menu.png");
+    background-image: url("http://movielex.com/ru/images/menu.png");
     //background: maroon;
     text-align: center;
     margin-right: 5px;
@@ -353,7 +358,7 @@ li {
 
 .footer {
     color: #eee;
-    background-image: url("../images/footer.jpg");
+    background-image: url("http://movielex.com/ru/images/footer.jpg");
     height: 70px;
     width: 960px;
     margin: auto;
