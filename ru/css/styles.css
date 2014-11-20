@@ -211,7 +211,7 @@ li {
 
 .movie-entry .title {
     font-weight:bold;
-    font-size: 110%;
+    font-size: 120%;
     padding: 5px; 
 }
 
@@ -227,7 +227,7 @@ li {
 }
 
 .desc {
-	font-size: 90%;
+	font-size: 100%;
 	color: gray;
 }
 
