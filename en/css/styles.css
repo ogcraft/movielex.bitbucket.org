@@ -1,0 +1,415 @@
+html *
+{
+   //font-size: 1em !important;
+
+   //color: white !important;
+   //color: black;
+   font-family: sans-serif !important;
+}
+
+body {
+    background-color: #111226;
+    //background: seagreen;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.wrap{
+    width:960px;
+    margin: auto;
+}
+
+.menu{
+    background-image: url("http://movielex.com/ru/images/menu.png");
+    //background: lime;
+    height:70px;
+}
+
+.topmenu {
+    float: left;
+    margin: 25px 50px 0px;
+    position: right;
+    padding-left: 100px;
+    padding-right: 10px;
+    //background: gray;
+}
+
+.topmenu li {
+    float: left;
+    padding-right: 60px;
+    list-style: none outside none;
+}
+
+.topmenu li a#active {
+    color: orange;
+    text-decoration: none;
+}
+
+.topmenu li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+
+.logo {
+    float: left;
+    height: 40px;
+    width: 72px;
+	padding-top: 5px;
+    padding-left: 10px;
+    position: left;
+    
+}
+
+.lang {
+    float: left;
+    height: 10px;
+    width: 10;
+	padding-top: 5px;
+    padding-left: 10px;
+    position: left;
+    
+} 
+
+////////////////// header-promo ///////////////////////
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.header-promo {
+    clear:both;
+    background-image: url("http://movielex.com/ru/images/header.png");
+    //background: tomato;
+    width: 960px;
+    height: 400px;
+    position: relative;
+}
+
+
+.header-promo .promo {
+   
+    color: #eee;
+    float: right;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 35px;
+    text-align: right;
+    text-transform: uppercase;
+   
+}
+
+.header-promo .upload-btn {
+    
+    float: left;
+    //padding-left: 100px;
+   // left: 306px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
+}
+
+.header-promo-cinema {
+    clear:both;
+    //background-image: url("http://movielex.com/ru/images/header-cinema.png");
+    background: cian;
+    width: 960px;
+    height: 400px;
+    position: relative;
+}
+
+/*
+.header-promo-cinema .promo {
+   
+    color: #eee;
+    float: right;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 35px;
+    text-align: right;
+    text-transform: uppercase;
+   
+}
+*/
+
+.header-promo-help-contacts  {
+    clear:both;
+    background-image: url("http://movielex.com/ru/images/header-help.png");
+    //background: tomato;
+    width: 960px;
+    height: 400px;
+    position: relative;
+}
+.header-promo-help-contacts.promo {
+   
+    color: #eee;
+    float: right;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 35px;
+    text-align: right;
+    text-transform: uppercase;
+   
+}
+///////////////// after header ////////////////////
+
+.after_header {
+    //background: darkcyan;
+    height: 21px;
+    //margin: auto;
+    //position: relative;
+    width: 960px;
+
+}
+
+.columnContainer {
+    color: #eee;
+    width:960px;
+	margin:auto;
+    overflow: hidden;
+   
+ 
+}
+
+.column {
+    float: left;
+    width: 100% ;
+    //padding: 1%;
+    
+}
+
+.column#left {
+    //background: yellow;
+	
+}
+
+.column#right {
+    //background: orange;
+}
+
+.column > h1 {
+    background-image: url("http://movielex.com/ru/images/menu.png");
+    //background: maroon;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.movie-img > img { 
+    width: 100px;
+    float: left; 
+    margin: 5px 15px 15px 5px; 
+}
+
+.movie-entry {
+    margin: 0px 20px 20px 0px;
+    //background: lavender;
+	//padding: 20px;
+
+}
+
+.movie-entry .title {
+    font-weight:bold;
+    font-size: 120%;
+    padding: 5px; 
+}
+
+.movie-entry img { 
+    width: 100px;
+    float: left; 
+    margin: 5px 15px 15px 5px; 
+}
+
+.movie-entry .desc {
+    margin: 5px 5px 5px 120px; 
+	
+}
+
+.desc {
+	font-size: 100%;
+	color: gray;
+}
+
+.translation {
+    text-align: right;
+    padding: 10px;
+}
+
+.translation img {
+    width: 20px;
+    height: 20px;
+    float: right; 
+    margin: 0px 30px 5px 20px;
+}
+
+.movie-entry .iwant {
+    padding: 10px;
+    //background: red;
+    height: 20px;
+} 
+
+.embed-movie {
+    margin: auto;
+    padding-left: 40px;
+}
+
+.wtm {
+    color: #eee;
+    text-align: left;
+    margin: auto;
+    //width: 800px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 100%;
+
+}
+
+.wtm1 {
+    color: #C0B5A0;
+    text-align: left;
+    margin: auto;
+    //width: 800px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 100%;
+
+}
+.wtm p, .howitworks p {
+    color: #eee;
+    font-family: sans-serif;
+    //font-size: 120%;
+    line-height: 23px;
+}
+
+.howitworks {
+    color: #eee;
+    margin: auto;
+    padding-bottom: 15px;
+    //width: 800px;
+    font-size: 100%;
+}
+
+.howitworks h1, .wtm h1 {
+    color: #eee;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.howitworks h2, .wtm h2 {
+    color: #eee;
+    text-align: center;
+}
+
+.topupload {
+    color: #eee;
+    left: 50px;
+    position: relative;
+    top: 195px;
+}
+
+.red-link {
+    color: Crimson;
+}
+
+.picture-leading img {
+    width: 960px;
+    margin: auto;
+}
+
+.hr960 {
+    width: 960px;
+    margin: auto;
+}
+
+.saveandgo {
+    clear: both;
+    //background: gray;
+    
+    width: 960px;
+    height: 80px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.saveandgo .upload-btn {
+   
+    float: left;
+    padding-left: 50px;
+}
+
+.gotocinema {
+    color:orange;
+    float: right;
+    padding-right: 100px;
+    font-size: 250%;
+}
+/*
+.gotocinema-btn {
+    float: right;
+    padding-right: 100px;
+    //left: 442px;
+    //position: relative;
+    //top: 20px;
+    //padding-top: 15px;
+    //margin: auto;
+}
+*/
+
+.footer {
+    color: #eee;
+    background-image: url("http://movielex.com/ru/images/footer.jpg");
+    height: 70px;
+    width: 960px;
+    margin: auto;
+}
+
+.copyright {
+    float:left;
+    margin: auto;
+    margin-top: 27px;
+    margin-left: 10px;
+    //background: white;
+
+}
+
+.socials {
+    //background: yellow;
+    //margin: auto;
+    margin-left: 340px;
+    margin-right: auto;
+    width: 400px;
+}
+
+.socials li {
+    float: left;
+    list-style: none outside none;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.socials img {
+    width: 25px;
+    position: center;
+}
+
+
+.email {
+    //background: gray;
+    float:right;
+    margin: auto;
+    margin-top: 27px;
+    margin-right: 10px;
+}
+
+
