@@ -32,12 +32,12 @@ li {
     //background: lime;
     height:70px;
 }
-
+/*
 .topmenu {
     float: left;
     margin: 25px 50px 0px;
     position: right;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 10px;
     //background: gray;
 }
@@ -58,6 +58,32 @@ li {
     text-decoration: none;
 }
 
+.topmenu-table {
+    //float: left;
+    margin: 0px 0px 0px;
+    //position: right;
+    //padding-left: 50px;
+    //padding-right: 10px;
+    //background: gray;
+}
+
+.topmenu-table td {
+    //float: left;
+    //padding-right: 60px;
+    //list-style: none outside none;
+}
+
+.topmenu-table td a#active {
+    color: orange;
+    text-decoration: none;
+}
+
+.topmenu-table td a {
+    color: #eee;
+    text-decoration: none;
+}
+
+*/
 
 .logo {
     float: left;
@@ -98,7 +124,7 @@ li {
 
 .header-promo-en {
     clear:both;
-    background-image: url("http://movielex.com/ru/images/header-en.png");
+    background-image: url("http://movielex.com/en/images/header-en.png");
     //background: tomato;
     width: 960px;
     height: 400px;
@@ -137,19 +163,14 @@ li {
     position: relative;
 }
 
-/*
-.header-promo-cinema .promo {
-   
-    color: #eee;
-    float: right;
-    font-size: 30px;
-    line-height: 46px;
-    margin: 35px;
-    text-align: right;
-    text-transform: uppercase;
-   
+.header-promo-cinema-en {
+    clear:both;
+    background-image: url("http://movielex.com/en/images/header-cinema-en.png");
+    //background: tomato;
+    width: 960px;
+    height: 400px;
+    position: relative;
 }
-*/
 
 .header-promo-help-contacts  {
     clear:both;
