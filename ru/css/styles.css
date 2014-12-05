@@ -96,6 +96,14 @@ li {
     position: relative;
 }
 
+.header-promo-en {
+    clear:both;
+    background-image: url("http://movielex.com/ru/images/header-en.png");
+    //background: tomato;
+    width: 960px;
+    height: 400px;
+    position: relative;
+}
 
 .header-promo .promo {
    
